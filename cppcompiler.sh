@@ -14,6 +14,6 @@ echo "'"$1"'"' No such file'
 exit 1
 else
 chmod +755 $1.$ext # Makes the file executable
-./$1.$ext # Exeutes the file
+./$1.$ext # Executes the file
 fi
 fi
